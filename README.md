@@ -23,7 +23,7 @@ UnemploymentUnemployment: Unemployment rate
    where:
 
     Inflationt​ is the inflation rate in period t,
-    M2t M1t RealGDPt InterestRatest and Unemployment​ are the values of the respective variables in period t,
+    M2t, M1t, RealGDPt, InterestRatest and Unemployment​ are the values of the respective variables in period t,
     β0​ is the intercept term,
     β1,β2,β3,β4,β5​ are the coefficients to be estimated,
     εt is the error term.
