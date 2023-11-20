@@ -24,7 +24,7 @@ Unemployment: Unemployment rate
 ### 1) Regression Model Equation:
     The basic regression model to predict inflation based on the mentioned variables can be specified as follows:
 
-    Inflationt=β0+β1×M2t+β2×M1t+β3×RealGDPt+β4×InterestRatest+β5×Unemploymentt+εt
+    Inflationt = β0 + β1×M2t + β2×M1t + β3×RealGDPt +β4×InterestRatest + β5×Unemploymentt+ εt
 
     where:
 
@@ -38,7 +38,7 @@ Unemployment: Unemployment rate
 
     A time series modeling approach, VAR model with lagged variables:
 
-    Yt=A0+A1Yt−1+A2Xt−1+εtYt​=A0​+A1​Yt−1​+A2​Xt−1​+εt​
+    Yt = A0 + A1Yt−1 + A2Xt−1 + εt 
 
     where:
 
