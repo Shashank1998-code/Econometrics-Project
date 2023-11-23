@@ -1,49 +1,40 @@
-# Econometrics-Project
+Certainly! Here's a write-up detailing the regression equation and explaining the variables:
 
-Project Outline: A study detailing the impact of Macroeconomic variables on US Inflation Rates.
+---
 
-## Variables of Interest: 
-Inflation: Inflation rate (Consumer Price Index)
+**Title: Impact of Macroeconomic Variables on Inflation: A Regression Analysis**
 
-M2: Broad money supply
+**Introduction:**
+Understanding the factors influencing inflation is crucial for policymakers, economists, and investors. In this study, we employ a regression analysis to explore the impact of various macroeconomic variables on the Consumer Price Index (CPI). The regression equation is formulated to capture the relationships between CPI and key indicators, providing insights into the drivers of inflation.
 
-M1: Narrow money supply
+**Regression Equation:**
+The regression equation used in this analysis is:
 
-RealGDP: Real Gross Domestic Product
+\[ \text{CPI} = \beta_0 + \beta_1 \times \text{M1} + \beta_2 \times \text{M2} + \beta_3 \times \text{Unemployment Rate} + \beta_4 \times \text{PCE} + \beta_5 \times \text{DSPI} + \beta_6 \times \text{Federal Funds Rate} + \beta_7 \times \text{Industrial Production Index} + \epsilon \]
 
-InterestRates: Interest rates (e.g., lending rate)
+Where:
+- \( \text{CPI} \) is the Consumer Price Index, representing the overall price level of a basket of goods and services.
+- \( \text{M1} \) and \( \text{M2} \) are measures of the money supply, capturing different components of liquid assets in the economy.
+- \( \text{Unemployment Rate} \) reflects the percentage of the labor force that is unemployed, serving as an indicator of economic health.
+- \( \text{PCE} \) (Personal Consumption Expenditures) accounts for the expenditures by individuals and is a key component of GDP.
+- \( \text{DSPI} \) (Disposable Personal Income) measures the after-tax income available to individuals for spending and saving.
+- \( \text{Federal Funds Rate} \) is the interest rate at which depository institutions lend funds to each other overnight, set by the Federal Reserve.
+- \( \text{Industrial Production Index} \) represents the output of the industrial sector, indicating economic activity.
 
-Unemployment: Unemployment rate
+**Interpretation of Variables:**
+1. **M1 and M2:** The coefficients (\( \beta_1 \) and \( \beta_2 \)) for M1 and M2 indicate the sensitivity of CPI to changes in the money supply. A positive coefficient suggests that an increase in the money supply is associated with a rise in inflation.
 
-## Period of Interest: 
-1990-01-01 to 2020-01-01
+2. **Unemployment Rate:** The coefficient (\( \beta_3 \)) for the unemployment rate signifies the impact of labor market conditions on inflation. A negative coefficient implies that higher unemployment may be associated with lower inflation.
 
+3. **PCE and DSPI:** The coefficients (\( \beta_4 \) and \( \beta_5 \)) for PCE and DSPI showcase the relationship between consumer spending and inflation. Positive coefficients suggest that higher consumer expenditures and disposable income may contribute to inflation.
 
-## Aproaches Used:
+4. **Federal Funds Rate:** The coefficient (\( \beta_6 \)) for the federal funds rate provides insights into the influence of monetary policy on inflation. A negative coefficient implies that higher interest rates may be associated with lower inflation.
 
-### 1) Regression Model Equation:
-    The basic regression model to predict inflation based on the mentioned variables can be specified as follows:
+5. **Industrial Production Index:** The coefficient (\( \beta_7 \)) for the industrial production index illustrates the impact of overall industrial output on inflation. A positive coefficient suggests that increased industrial production may contribute to higher inflation.
 
-    Inflationt = β0 + β1×M2t + β2×M1t + β3×RealGDPt +β4×InterestRatest + β5×Unemploymentt+ εt
+**Conclusion:**
+The regression analysis provides a quantitative framework for understanding the interplay between macroeconomic variables and inflation. By interpreting the coefficients, policymakers can gain valuable insights into the potential effects of monetary, fiscal, and economic conditions on the overall price level, aiding in informed decision-making.
 
-    where:
+--- 
 
-    Inflationt​ is the inflation rate in period t,
-    M2t, M1t, RealGDPt, InterestRatest and Unemployment​ are the values of the respective variables in period t,
-    β0​ is the intercept term,
-    β1,β2,β3,β4,β5​ are the coefficients to be estimated,
-    εt is the error term.
-
-### 2) Vector Autoregression (VAR) Model Equation:
-
-    A time series modeling approach, VAR model with lagged variables:
-
-    Yt = A0 + A1Yt−1 + A2Xt−1 + εt 
-
-    where:
-
-    Yt​ is a vector of endogenous variables including Inflation​,
-    Xt−1 is a vector of lagged exogenous variables including M2t−1​, M1t−1, RealGDPt−1, InterestRatest−1​, Unemploymentt−1,
-    A0 is a constant vector,
-    A1 and A2​ are coefficient matrices,
-    εt is a vector of error terms.
+Note: This write-up is a general guide, and specific interpretations may vary based on the results obtained from the regression analysis.
