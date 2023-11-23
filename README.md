@@ -10,8 +10,7 @@ Understanding the factors influencing inflation is crucial for policymakers, eco
 **Regression Equation:**
 The regression equation used in this analysis is:
 
-\[ \text{CPI} = \beta_0 + \beta_1 \times \text{M1} + \beta_2 \times \text{M2} + \beta_3 \times \text{Unemployment Rate} + \beta_4 \times \text{PCE} + \beta_5 \times \text{DSPI} + \beta_6 \times \text{Federal Funds Rate} + \beta_7 \times \text{Industrial Production Index} + \epsilon \]
-
+CPI=β0​+β1​×M1+β2​×M2+β3​×Unemployment Rate+β4​×PCE+β5​×DSPI+β6​×Federal Funds Rate+β7​×Industrial Production Index+ϵ
 Where:
 - \( \text{CPI} \) is the Consumer Price Index, representing the overall price level of a basket of goods and services.
 - \( \text{M1} \) and \( \text{M2} \) are measures of the money supply, capturing different components of liquid assets in the economy.
