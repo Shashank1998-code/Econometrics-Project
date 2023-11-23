@@ -1,6 +1,6 @@
-Certainly! Here's a write-up detailing the regression equation and explaining the variables:
 
----
+
+
 
 **Title: Impact of Macroeconomic Variables on Inflation: A Regression Analysis**
 
