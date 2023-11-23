@@ -2,8 +2,7 @@
 
 
 
-**Title: Impact of Macroeconomic Variables on Inflation: A Regression Analysis**
-
+**Title: Impact of Macroeconomic Variables on Inflation
 **Introduction:**
 Understanding the factors influencing inflation is crucial for policymakers, economists, and investors. In this study, we employ a regression analysis to explore the impact of various macroeconomic variables on the Consumer Price Index (CPI). 
 
